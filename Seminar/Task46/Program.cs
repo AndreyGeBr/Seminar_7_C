@@ -40,7 +40,7 @@ void FillArray(int[,,] array)
         {
             for (int k = 0; k < array.GetLength(2); k++)
             {
-                array[i, j, k] = new Random().Next(0, 100);
+                array[i, j, k] = generator.Next(0, 100);
             }
         }
     }
